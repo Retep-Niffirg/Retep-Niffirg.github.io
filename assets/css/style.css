@@ -11,24 +11,40 @@ body {
 
 #top {
   text-align: center;
-  width: 100%;
-  height: 100%;
   background-color: green;
   margin: auto;
+  width: 640px;
+  padding: 3px;
+  outline-color: white;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 69px;
 }
 
 #music {
-  background-color: white;
-  width: 641px;
+  background-color: #74d68b;
+  width: 640px;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  outline-color: green;
+  outline-width: 5px;
+  outline-style: inset;
+  margin-bottom: 25px;
 }
 
 #activities {
-  width: 641px;
+  width: 640px;
   margin: auto;
   text-align: center;
   background-color: green;
   font-size: 18px;
+  padding: 3px;
+  outline-color: white;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 69px;
 }
 
 a {
@@ -45,8 +61,10 @@ table {
 
 .center {
   text-align: center;
+  align-items: center;
 }
 
 .white-outline {
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  color: white;
 }
+
