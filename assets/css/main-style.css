@@ -1,0 +1,70 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-image: url('/assets/images/Retep.webp');
+  background-attachment: fixed;
+  background-size: 10%;
+  background-color: #74d68b;
+}
+
+#top {
+  text-align: center;
+  background-color: green;
+  margin: auto;
+  width: 640px;
+  padding: 3px;
+  outline-color: white;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 69px;
+}
+
+#music {
+  background-color: #74d68b;
+  width: 640px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  outline-color: green;
+  outline-width: 5px;
+  outline-style: inset;
+  margin-bottom: 25px;
+}
+
+#activities {
+  width: 640px;
+  margin: auto;
+  text-align: center;
+  background-color: green;
+  font-size: 18px;
+  padding: 3px;
+  outline-color: white;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 69px;
+}
+
+a {
+  color: #74d68b;
+}
+
+a:hover {
+  color: white;
+}
+
+table {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.white-outline {
+  color: white;
+}
+
