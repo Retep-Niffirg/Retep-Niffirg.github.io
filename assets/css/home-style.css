@@ -6,6 +6,8 @@ body {
     display: block;
     margin: 0px auto;
     text-align: center;
+    background: linear-gradient(180deg,rgba(11, 130, 0, 1) 0%, rgba(0, 0, 0, 1) 76%);
+    background-attachment: fixed;
 }
 
 #background {
@@ -17,13 +19,17 @@ body {
   z-index: -20;
 }
 
+p {
+    color: white;
+}
+
 header {
     border-radius: 12px;
     border: inset 5px;
     padding: 10px;
     background-color: whitesmoke;
-    margin: 10px 20%;
-    overflow: hidden
+    margin: 10px 25%;
+    overflow: hidden;
 }
 
 #button-header {
@@ -37,12 +43,14 @@ header {
     background-color:rgba(255, 255, 255, 0.5);
     border: inset 5px;
     border-radius: 12px;
-    display: flex;
-    margin: 10px 20%;
+    margin: 10px 1%;
     padding: 10px 0;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    margin: 10px 10%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    padding: 10px;
+    min-width: 0;
 }
 
 
@@ -60,11 +68,12 @@ header {
 }
 
 #buttons a:hover {
-    font-size: 25px;
+    color: black;
 }
 
 #buttons a:active {
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -74,10 +83,12 @@ header {
     }
     
     #buttons {
-        display: flex;
-        margin: 10px 2%;
-        flex-direction: row;
-        align-items: center;
+        display: grid;
+        margin: 10px 25%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: auto;
+        grid-row-gap: 5px;
+        padding: 10px;
     }
 
     #button-header {
@@ -92,14 +103,15 @@ header {
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
 
     header {
-        margin: 10px 30%;
+        margin: 10px 35%;
     }
     
     #buttons {
-        margin: 10px 30%;
+        display: grid;
+        margin: 10px 25%;
     }
 
 }
