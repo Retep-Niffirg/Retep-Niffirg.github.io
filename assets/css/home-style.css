@@ -26,7 +26,7 @@ p {
 header {
     border-radius: 12px;
     border: inset 5px;
-    padding: 10px;
+    padding: 0 10px;
     background-color: whitesmoke;
     margin: 10px 25%;
     overflow: hidden;
@@ -46,8 +46,10 @@ header {
     margin: 10px 1%;
     padding: 10px 0;
     display: grid;
-    margin: 10px 10%;
-    grid-template-columns: repeat(4, 1fr);
+    margin: 10px 20%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5px;
     grid-column-gap: 5px;
     padding: 10px;
     min-width: 0;
@@ -83,11 +85,7 @@ header {
     }
     
     #buttons {
-        display: grid;
-        margin: 10px 25%;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-columns: auto;
-        grid-row-gap: 5px;
+        margin: 10px 5%;
         padding: 10px;
     }
 
@@ -103,15 +101,14 @@ header {
 
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
 
     header {
         margin: 10px 35%;
     }
     
     #buttons {
-        display: grid;
-        margin: 10px 25%;
+        margin: 10px 30%;
     }
 
 }
