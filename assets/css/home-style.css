@@ -22,7 +22,7 @@ header {
     border: inset 5px;
     padding: 10px;
     background-color: whitesmoke;
-    margin: 10px 25%;
+    margin: 10px 20%;
     overflow: hidden
 }
 
@@ -87,7 +87,7 @@ header {
     }
 
     #buttons a {
-        padding: 5px;
+        padding: 10px 5px;
     }
 
 }
@@ -95,7 +95,7 @@ header {
 @media (min-width: 1300px) {
 
     header {
-        margin: 10px 35%;
+        margin: 10px 30%;
     }
     
     #buttons {
