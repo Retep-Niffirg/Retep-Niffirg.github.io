@@ -28,10 +28,16 @@ img {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    background-color:rgba(0, 0, 0, 0.2);
     padding: 0 10px 10px;
     row-gap: 20px;
 }
+
+.column h1{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.2);
+    padding: 10px 0 0;
+}
+
 
 .column div {
     background-color:rgba(0, 0, 0, 0.2);
