@@ -1,0 +1,49 @@
+#topbar {
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  top: 0;
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 5px;
+  background: linear-gradient(180deg,rgba(11, 130, 0, 1) 0%, rgba(0, 0, 0, 1) 76%);
+}
+
+
+.topbar-button a{
+  border-radius: 12px;
+  border: solid 5px;
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+  color: green;
+  font-size: larger;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  white-space: nowrap
+}
+
+.topbar-button a:hover {
+    color: black;
+}
+
+.topbar-button a:active {
+    background-color: black;
+    color: white;
+}
+
+.topbar-current a{
+    color: white;
+    background-color: black;
+}
+
+.topbar-current a:hover {
+    color: black;
+    background-color: green;
+}
