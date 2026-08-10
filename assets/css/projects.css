@@ -9,3 +9,33 @@ body {
     background-color: #fdceff;
     background-position: right;
 }
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 25px;
+  margin: 125px 50px 0;
+}
+
+#project-grid div {
+  padding: 10px;
+  background-color: #fdceff4f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  #project-grid {
+    display: block;
+  }
+    
+  #project-grid div {
+    margin: 25px 0;
+  }
+}
