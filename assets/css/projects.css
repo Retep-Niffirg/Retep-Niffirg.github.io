@@ -15,6 +15,27 @@ video {
   height: auto;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+a {
+  color: pink;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: white;
+}
+
 #project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,5 +58,9 @@ video {
     
   #project-grid div {
     margin: 25px 0;
+  }
+
+  a img:hover {
+    transform: scale(1, 1);
   }
 }
