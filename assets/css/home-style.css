@@ -38,7 +38,7 @@ header {
     font-size: 20px;
 }
 
-#buttons {
+nav {
     background-color:rgba(255, 255, 255, 0.5);
     border: inset 5px;
     margin: 10px 1%;
@@ -54,7 +54,7 @@ header {
 }
 
 
-#buttons a {
+nav a {
     border-radius: 12px;
     border: solid 5px;
     padding: 10px;
@@ -67,11 +67,11 @@ header {
     font-weight: bolder;
 }
 
-#buttons a:hover {
+nav a:hover {
     color: black;
 }
 
-#buttons a:active {
+nav a:active {
     background-color: black;
     color: white;
 }
@@ -82,7 +82,7 @@ header {
         margin: 10px 5%;
     }
     
-    #buttons {
+    nav {
         margin: 10px 5%;
         padding: 10px;
     }
@@ -93,7 +93,7 @@ header {
         font-weight: bold;
     }
 
-    #buttons a {
+    nav a {
         padding: 10px 5px;
     }
 
@@ -105,7 +105,7 @@ header {
         margin: 10px 35%;
     }
     
-    #buttons {
+    nav {
         margin: 10px 30%;
     }
 
