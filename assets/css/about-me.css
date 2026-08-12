@@ -75,11 +75,22 @@ img{
 footer {
   margin: 10px 15% 0;
   background-color: #00000044;
+  border-radius: 5px;
 }
 
 .music-container {
   display: flex;
-  
+  flex-wrap: nowrap;
+  padding: 10px;
+  overflow: auto;
+  gap: 25px;
+}
+
+.music-container div {
+  border: #c2c072 solid 2px;
+  background-color: #00000044;
+  padding: 5px;
+  flex-shrink: 0;
 }
 
 .music-container iframe {
@@ -94,6 +105,11 @@ a {
 @media (max-width: 768px) {
   main {
     display: block;
+    margin: 10px 5% 0;
+  }
+
+  footer {
+    margin: 10px 5% 0;
   }
 }
 
