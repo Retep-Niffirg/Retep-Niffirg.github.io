@@ -11,10 +11,6 @@ body {
   background-position: center;
 }
 
-header {
-  margin: 100px 15% 0;
-}
-
 main {
   margin: 100px 15% 0;
   background-color: #00000044;
@@ -31,7 +27,19 @@ main {
   grid-area: content;
   display: block;
   overflow-wrap: break-word;
-  padding: 10px;
+  padding: 0 10px;
+  line-height: 10px;
+}
+
+.content header{
+  border-bottom: 2px solid #c2c072;
+  margin: 0 0 10px;
+}
+
+.content section {
+  background-color: rgba(41, 41, 41, 0.63);
+  padding: 1px 0 1px 5px;
+  line-height: normal;
 }
 
 img{
@@ -72,10 +80,24 @@ img{
   font-size: x-small;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 footer {
-  margin: 10px 15% 0;
+  margin: 20px 15% 0;
+  padding: 2px 0 0;
   background-color: #00000044;
   border-radius: 5px;
+}
+
+footer header{
+  padding: 0 0 0 10px;
+  line-height: 5px;
+}
+
+footer header p{
+  line-height: normal;
 }
 
 .music-container {
@@ -105,11 +127,12 @@ a {
 @media (max-width: 768px) {
   main {
     display: block;
-    margin: 10px 5% 0;
+    margin: 100px 5% 25px;
+    padding: 10px;
   }
 
   footer {
-    margin: 10px 5% 0;
+    margin: 20px 5% 0;
   }
 }
 
