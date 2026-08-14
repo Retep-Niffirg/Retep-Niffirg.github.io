@@ -9,3 +9,51 @@ body {
     background-color: #000000;
     background-position: left;
 }
+
+header {
+  margin: 100px auto;
+  width: 600px;
+  background-color: #0000008a;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+header h1{
+  line-height: normal;
+  font-size: 35px;
+}
+
+header figcaption{
+  font-size: 18px;
+}
+
+header a{
+  color: green;
+}
+
+header a:hover{
+  color: rgb(94, 215, 255);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.white-font {
+  color: white
+}
+
+@media (max-width: 768px) {
+  
+  header {
+    margin: 100px auto;
+    width: auto;
+  }
+
+}
